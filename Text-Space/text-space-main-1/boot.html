@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Space Project</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      overflow-x: hidden; 
+    }
+    .sidebar {
+      /* Sets up sidebar with full viewport height, with custom color (gray) */
+      height: 100vh; 
+      background-color: #f8f9fa;
+      padding-top: 20px;
+    }
+    .hero-image {
+      /* sets a image for hero section background
+      
+      */
+      background-image: url('path-to-your-image.jpg'); 
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .hero-text {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .category-card img {
+      width: 100%;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    <!-- Sidebar -->
+    <nav class="col-md-2 d-none d-md-block sidebar">
+      <ul class="nav flex-column">
+        <li class="nav-item"><a class="nav-link" href="#">Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Pinned Messages</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Saved Media</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Saved Drafts</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Current Conversations</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Create Content</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Interests</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i>Discover Group</i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#">User Settings</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Tools</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="col-md-10 ml-sm-auto px-4">
+        <div  class="text-center my-4">
+            <h2>Text-Space</h2>
+            <img src="https://itchronicles.com/wp-content/uploads/2021/01/technology-impact-on-life-1024x566.jpg" alt="Technology" style="width:400px;height:300px;">
+            <p>Technology encompasses the tools, systems, and methods that enhance human capabilities and solve problems. It includes everything from simple inventions like the wheel to complex innovations such as artificial intelligence and quantum computing. As technology evolves, it shapes our daily lives, influences economies, and transforms industries, driving progress and connectivity globally.</p>
+        </div>
+      <!-- Hero Section 
+      <div class="hero-image">
+        <h1 class="hero-text">Effortless Messaging Solutions</h1>
+      </div> -->
+
+      <!-- Technology Description Section -->
+      <!--<div class="text-center my-4">
+        <h2>Technology</h2>
+        
+      </div> -->
+
+      <!-- Category Section with Grid -->
+      <div class="row text-center py-4">
+        <div class="col-md-4 category-card">
+          <img src="https://flux-image.com/_next/image?url=https%3A%2F%2Fai.flux-image.com%2Fflux%2F6d6a1958-0c06-4805-873b-d535b1ad44d1.jpg&w=3840&q=75" 
+               alt="Developer" class="img-fluid rounded-circle mb-3" style="width: 400px; height: 200px; object-fit: cover;">
+          <h5>Developer</h5>
+        </div>
+        <div class="col-md-4 category-card">
+          <img src="https://www.yourmembership.com/wp-content/uploads/2017/04/17-0214-5-strategies-engage-members-online-community-card.jpg" 
+               alt="Networking" class="img-fluid rounded-circle mb-3" style="width: 400px; height: 200px; object-fit: cover;">
+          <h5>Networking</h5>
+        </div>
+        <div class="col-md-4 category-card">
+          <img src="https://www.rismedia.com/wp-content/uploads/2018/05/digital_marketing_plan_665x350_870467850.jpg" 
+               alt="Refining" class="img-fluid rounded-circle mb-3" style="width: 400px; height: 200px; object-fit: cover;">
+          <h5>Refining</h5>
+        </div>
+      </div>
+      
+      <!-- View More Button -->
+      <div class="text-center mt-4">
+        <button class="btn btn-secondary">View More</button>
+      </div>
+
+      <!-- Search Box -->
+      <div class="d-flex justify-content-center my-4">
+        <div class="input-group" style="width: 50%;">
+          <input type="text" class="form-control" placeholder="Search">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button">🔍</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
